@@ -1,0 +1,204 @@
+/* Navbar */
+
+.navbar
+{
+  display: flex;
+  justify-content: space-between;
+  align-items:center ;
+  background-color: antiquewhite;
+}
+.logo
+{
+margin: 5px 15px;
+}
+.navlinks
+{
+  margin: 0px 20px;
+}
+.navlinks ul li a
+{ 
+  text-decoration: none;
+  color: red;
+
+}
+.navlinks ul li
+{
+  display: inline;
+  padding: 0px 20px;
+}
+.navlinks ul button 
+{
+  background-color: red;
+  border-radius: 5px ;
+}
+.navlinks ul button a
+{
+  text-decoration: none;
+  color: white;
+
+}
+
+/* login */
+
+.loginn
+{
+  text-align: center;
+  margin: 100px ;
+}
+.heading
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 100px;
+    color:rgb(223, 52, 25);
+   
+}
+
+#text
+{
+    padding: 5px 10px ;
+    background-color: antiquewhite;
+    border-radius: 5px ;
+}
+#password2
+{
+    padding: 5px 10px ;
+    background-color: antiquewhite;
+    border-radius: 5px ;
+}
+#login
+{
+    padding: 5px 10px ;
+    background-color: red;
+    color: white;
+    border-radius: 5px ;
+}
+#login:hover
+{
+    background-color: white;
+    color: black;
+}
+.inputs a
+{
+    color: aliceblue;
+}
+
+/* Footer */
+
+.footer-container ul li
+{
+  list-style: none;
+  display: inline;
+  margin: 5px 100px;
+ 
+
+ 
+}
+.footer-container
+{
+
+  text-align: center;
+  background-color: antiquewhite;
+  height: 100px;
+  align-items: center;
+  padding-top: 20px;
+ 
+ 
+}
+
+/* Deals */
+
+.title
+{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 10px;
+}
+.list-buttons 
+{
+
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 300px ;
+}
+.list-buttons button
+{
+  padding: 10px 15px ;
+  margin: 0px 10px ;
+  border-radius: 5px ;
+  border: none;
+  background-color: antiquewhite;
+}
+.list-buttons button:hover
+{
+  background-color: red;
+  color: white;
+}
+
+
+.menu
+{
+  text-align: center;
+}
+#img1
+{
+  display:inline-block;
+}
+
+#first
+{
+  display: none;
+  visibility: visible;
+  text-align: center;
+  margin: 10px ;
+}
+#second
+{
+  display: none;
+  visibility: visible;
+  text-align: center;
+ 
+}
+#third
+{
+  display: none;
+  visibility: visible;
+  text-align: center;
+
+}
+#four
+{
+  display: none;
+  visibility: visible;
+  text-align: center;
+
+}
+#five
+{
+  display: none;
+  visibility: visible;
+  text-align: center;
+
+}
+#six
+{
+  display: none;
+  visibility: visible;
+  text-align: center;
+
+}
+/* STEPS */
+.row{
+  display: flex;
+  /* bord8r: 2px solid black; */
+  margin: 90px 100px   ;
+}
+.col-3
+
+{
+  border: 2px solid black;
+  border-radius: 5px ;
+  width: 300px;
+  padding: 10px 10px 10px 10px ;
+  margin: 10px 10px ;
+}
